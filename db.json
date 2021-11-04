@@ -205,7 +205,7 @@
         {
             "id" : 2,
             "question" : "What is the correct tag to use when referencing a Javascript file in an HTML file?",
-            "question_type" : "image_analysis",
+            "question_type" : "mult_choice_text",
             "correct_answer" : "<script>",
             "choices" : ["<file>","<js>","<src>","<script>"],
             "feedback" : ["Correct!", "Incorrect!"],
