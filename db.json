@@ -204,12 +204,13 @@
         },
         {
             "id" : 2,
-            "question" : "What is the correct tag to use when referencing a Javascript file in an HTML file?",
-            "question_type" : "mult_choice_text",
-            "correct_answer" : "<script>",
-            "choices" : ["<file>","<js>","<src>","<script>"],
+            "question" : "Considering the section of an HTML page below, what is the proper CSS styling to center the text?",
+            "question_type" : "picture_question",
+            "image" : "images/quiz_two/image_analysis02.png",
+            "correct_answer" : "text-align: center;",
+            "choices" : ["text-position: center;", "text-style: center;", "text-align: center;", "text-display: center;"],
             "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "The <script> tag is the correct tag to use when calling a Javascript file in an HTML file."
+            "explanation" : "The proper CSS class to manipulate text alignment is \"text-align\"."
         },
         {
             "id" : 3,
