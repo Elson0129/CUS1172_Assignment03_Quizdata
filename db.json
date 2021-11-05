@@ -122,7 +122,7 @@
             "id" : 13,
             "question" : "Select the data structures that are considered as non-linear data structures.",
             "question_type" : "mult_select_choice",
-            "correct_answers" : ["Graph", "Binary Tree"],
+            "correct_answer" : ["Graph", "Binary Tree"],
             "choices" : ["Queue","Graph","Linked List","Binary Tree"],
             "feedback" : ["Correct!", "Incorrect!"],
             "explanation" : "Binary trees and graphs are considered as non-linear data structures."
