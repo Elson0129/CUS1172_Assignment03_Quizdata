@@ -193,12 +193,15 @@
         },
         {
             "id" : 1,
-            "question" : "How many ways can CSS styling be added into an HTML page?",
-            "question_type" : "question_input_text",
-            "textFieldId" : "user_answer",
-            "correct_answer" : "3",   
-            "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "There are 3 ways to add CSS to an HTML page: Inline CSS, using internal styling through the use of a <style> tag, or having an external CSS file"
+            "question": "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
+            "question_type": "mult_text_input",
+            "correct_answer": ["Hyper","Protocol"],
+            "feedback": [
+              "Correct!",
+              "Incorrect!"
+            ],
+            "explanation": "HTTP stands for Hypertext Transfer Protocol."
+            
         },
         {
             "id" : 2,
@@ -212,14 +215,12 @@
         },
         {
             "id" : 3,
-            "question": "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
-            "question_type": "mult_text_input",
-            "correct_answer": ["Hyper","Protocol"],
-            "feedback": [
-              "Correct!",
-              "Incorrect!"
-            ],
-            "explanation": "HTTP stands for Hypertext Transfer Protocol."
+            "question" : "How many ways can CSS styling be added into an HTML page?",
+            "question_type" : "question_input_text",
+            "correct_answer" : "3",   
+            "feedback" : ["Correct!", "Incorrect!"],
+            "explanation" : "There are 3 ways to add CSS to an HTML page: Inline CSS, using internal styling through the use of a <style> tag, or having an external CSS file"
+
         },
         {
             "id" : 4,
