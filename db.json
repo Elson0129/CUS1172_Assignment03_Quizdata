@@ -232,11 +232,12 @@
         },
         {
             "id" : 5,           
-            "question" : "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
-            "question_type" : "mult_text_input",
-            "correct_answer" : ["Hyper", "Protocol"],
+            "question" : "An HTTP 404 error indicates that the server the browser is communicating to cannot find what was being requested.",
+            "question_type" : "question_trueFalse",
+            "correct_answer" : "True",
+            "choices" : ["True", "False"],
             "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "HTTP stands for Hypertext Transfer Protocol."
+            "explanation" : "An HTTP 404 error indicates that the browser was able to communicate with a given server, but the server could not find what was requested."
         },
         {
             "id" : 6,
