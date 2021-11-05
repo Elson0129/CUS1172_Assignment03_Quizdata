@@ -129,13 +129,11 @@
         },
         {
             "id" : 14,
-            "question" : "What is the output of the code snippet below?",
-            "question_type" : "picture_question",
-            "image" : "https://github.com/Elson0129/Elson0129.github.io/tree/main/images/quiz_one/image_analysis01.png",
-            "correct_answer" : "Cimpletd",
-            "choices" : ["Cimpletd","Completed","Iomplede","Coipletd"],
+            "question" : "Java is an ____ ____ Programming Language. (Make sure to capitalize each response and the order in which you submit the responses matter)",
+            "question_type" : "mult_text_input",
+            "correct_answer" : ["Object", "Oriented"],
             "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "At position 1 of the string \"Complete\", the char is \"o\", and the char at position 7 is \"e\". By placing an \"i\" at position 1 and a \"d\" at position 7, you get a new string, \"Cimpletd\""
+            "explanation" : "Java is mostly known to be an Object Oriented Programming language."
         },
         {
             "id" : 15,
@@ -214,13 +212,11 @@
         },
         {
             "id" : 3,
-            "question" : "Considering the section of an HTML page below, what is the proper CSS styling to center the text?",
-            "question_type" : "picture_question",
-            "image" : "https://raw.githubusercontent.com/Elson0129/Elson0129.github.io/7b7a56870405005819d05c4e75fa138957ff6618/images/quiz_two/image_analysis02.png",
-            "correct_answer" : "text-align: center;",
-            "choices" : ["text-position: center;", "text-style: center;", "text-align: center;", "text-display: center;"],
+            "question" : "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
+            "question_type" : "mult_text_input",
+            "correct_answer" : ["Hyper", "Protocol"],
             "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "The proper CSS class to manipulate text alignment is \"text-align\"."
+            "explanation" : "HTTP stands for Hypertext Transfer Protocol."
         },
         {
             "id" : 4,
