@@ -184,14 +184,12 @@
     "quiz_two" : [
         {
             "id" : 0,
-            "question": "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
-            "question_type": "question_multInput_text",
-            "correct_answer": ["Hyper","Protocol"],
-            "feedback": [
-              "Correct!",
-              "Incorrect!"
-            ],
-            "explanation": "HTTP stands for Hypertext Transfer Protocol."       
+            "question" : "What is the correct tag to use when referencing a Javascript file in an HTML file?",
+            "question_type" : "mult_choice_text",
+            "correct_answer" : "<script>",
+            "choices" : ["<file>","<js>","<src>","<script>"],
+            "feedback" : ["Correct!", "Incorrect!"],
+            "explanation" : "The <script> tag is the correct tag to use when calling a Javascript file in an HTML file."
         },
         {
             "id" : 1,
@@ -205,13 +203,11 @@
         },
         {
             "id" : 2,
-            "question" : "What is the correct tag to use when referencing a Javascript file in an HTML file?",
-            "question_type" : "mult_choice_text",
-            "correct_answer" : "<script>",
-            "choices" : ["<file>","<js>","<src>","<script>"],
-            "feedback" : ["Correct!", "Incorrect!"],
-            "explanation" : "The <script> tag is the correct tag to use when calling a Javascript file in an HTML file."
-
+            "question": "HTTP stands for ____text Transfer ____. (Make sure to capitalize each response and the order in which you submit the responses matter)",
+            "question_type": "question_multInput_text",
+            "correct_answer": ["Hyper","Protocol"],
+            "feedback": ["Correct!", "Incorrect!"],
+            "explanation": "HTTP stands for Hypertext Transfer Protocol."      
         },
         {
             "id" : 3,
