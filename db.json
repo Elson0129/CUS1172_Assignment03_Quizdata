@@ -207,6 +207,8 @@
             "question_type": "question_multInput_text",
             "correct_answer": ["Hyper","Protocol"],
             "feedback": ["Correct!", "Incorrect!"],
+            "answer1FieldId" : "fieldOneValue",
+            "answer2FieldId" : "fieldTwoValue",
             "explanation": "HTTP stands for Hypertext Transfer Protocol."      
         },
         {
